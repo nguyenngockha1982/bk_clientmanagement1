@@ -5,6 +5,7 @@ BEGIN
 		[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY,
 		ClientCode VARCHAR(50) NOT NULL UNIQUE,
 		ClientName NVARCHAR(200) NOT NULL,
+		SecurityCode VARCHAR(50) NOT NULL,
 		ClientSecretKey VARCHAR(500) NOT NULL,
 		Note NVARCHAR(MAX),
 		Status INT NOT NULL, -- Active/Suspended/Expired

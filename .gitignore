@@ -33,12 +33,11 @@
 *.dbmdl
 Heralabs/uploads/
 /Heralabs/Heralabs.csproj
-Heralabs.ClientManagement.Api/obj/
-Heralabs.ClientManagement.Domain/obj/Heralabs.ClientManagement.Domain.csproj.nuget.dgspec.json
-Heralabs.ClientManagement.Domain/obj/
-Heralabs.ClientManagement.Infrastructure/obj/
 Heralabs.ClientManagement.Api/.vs/
+Heralabs.ClientManagement.Api/bin/
+Heralabs.ClientManagement.Api/obj/
+*.apk
 Heralabs.ClientManagement.Core/bin/
 Heralabs.ClientManagement.Core/obj/
-Heralabs.ClientManagement.Api/bin/
-*.apk
+Heralabs.ClientManagement.Domain/obj/
+Heralabs.ClientManagement.Infrastructure/obj/

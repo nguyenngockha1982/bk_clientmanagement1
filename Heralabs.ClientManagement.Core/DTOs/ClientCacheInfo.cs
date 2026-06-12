@@ -6,6 +6,7 @@ namespace Heralabs.ClientManagement.Core.DTOs
     {
         public Guid Id { get; set; }
         public string ClientCode { get; set; } = string.Empty;
+        public string SecurityCode { get; set; } = string.Empty;
         public string ClientName { get; set; } = string.Empty;
         public string ClientSecretKey { get; set; } = string.Empty;
         public ClientStatus Status { get; set; }

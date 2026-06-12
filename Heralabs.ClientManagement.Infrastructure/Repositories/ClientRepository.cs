@@ -37,6 +37,7 @@ namespace Heralabs.ClientManagement.Infrastructure.Repositories
                     Id = x.Client.Id,
                     ClientCode = x.Client.ClientCode,
                     ClientName = x.Client.ClientName,
+                    SecurityCode = x.Client.SecurityCode,
                     ClientSecretKey = x.Client.ClientSecretKey,
                     Status = x.Client.Status,
                     WebApiVersionCode = x.LatestDeployment != null ? x.LatestDeployment.WebApiVersionCode : null,

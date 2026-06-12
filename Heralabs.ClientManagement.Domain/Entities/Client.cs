@@ -8,6 +8,7 @@ namespace Heralabs.ClientManagement.Domain.Entities
         public Guid Id { get; set; } = Guid.NewGuid();
         public string ClientCode { get; set; } = string.Empty;
         public string ClientName { get; set; } = string.Empty;
+        public string SecurityCode { get; set; } = string.Empty;
         public string ClientSecretKey { get; set; } = Guid.NewGuid().ToString("N");
         public string? Note { get; set; }
         public ClientStatus Status { get; set; }
