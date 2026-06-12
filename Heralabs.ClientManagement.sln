@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37301.10 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heralabs.ClientManagement.Api", "Heralabs.ClientManagement.Api\Heralabs.ClientManagement.Api.csproj", "{3CD28049-049A-4769-B219-FDC6002BD78C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heralabs.ClientManagement.Domain", "Heralabs.ClientManagement.Domain\Heralabs.ClientManagement.Domain.csproj", "{F68D8EAC-5A99-4D58-8918-F99C4F136427}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heralabs.ClientManagement.Core", "Heralabs.ClientManagement.Core\Heralabs.ClientManagement.Core.csproj", "{86CE2CD1-77F0-44C7-9F8C-3C1E6494C182}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heralabs.ClientManagement.Infrastructure", "Heralabs.ClientManagement.Infrastructure\Heralabs.ClientManagement.Infrastructure.csproj", "{7C6F76F6-3B9B-458B-ADE3-C0513EC71450}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CD28049-049A-4769-B219-FDC6002BD78C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD28049-049A-4769-B219-FDC6002BD78C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD28049-049A-4769-B219-FDC6002BD78C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD28049-049A-4769-B219-FDC6002BD78C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F68D8EAC-5A99-4D58-8918-F99C4F136427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F68D8EAC-5A99-4D58-8918-F99C4F136427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F68D8EAC-5A99-4D58-8918-F99C4F136427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F68D8EAC-5A99-4D58-8918-F99C4F136427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86CE2CD1-77F0-44C7-9F8C-3C1E6494C182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86CE2CD1-77F0-44C7-9F8C-3C1E6494C182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86CE2CD1-77F0-44C7-9F8C-3C1E6494C182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86CE2CD1-77F0-44C7-9F8C-3C1E6494C182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C6F76F6-3B9B-458B-ADE3-C0513EC71450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C6F76F6-3B9B-458B-ADE3-C0513EC71450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C6F76F6-3B9B-458B-ADE3-C0513EC71450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C6F76F6-3B9B-458B-ADE3-C0513EC71450}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56174304-8E32-43DF-9372-307060CC7C06}
+	EndGlobalSection
+EndGlobal

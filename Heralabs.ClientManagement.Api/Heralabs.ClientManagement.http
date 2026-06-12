@@ -1,0 +1,6 @@
+@Heralabs.ClientManagement_HostAddress = http://localhost:5142
+
+GET {{Heralabs.ClientManagement_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,4 @@
+﻿package filename:
+- Lower case
+- Template: 'heralabs.mobile-{version}-{16 random characters}}.apk'
+- Example: heralabs.mobile-1.0.0-lowknjlcwrbga7qt.apk
